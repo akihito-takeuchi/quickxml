@@ -1,0 +1,25 @@
+<test>
+  <info>
+    <name>Book list</name>
+    <description>Just sample</description>
+    <contributor>Uncle Frog</contributor>
+    <contributor>Mr. Lizard</contributor>
+    <contributor>Super monkey</contributor>
+    <contributor>Godzilla</contributor>
+  </info>
+  <book id="1">
+    <title>Qt C++</title>
+    <price>3000yen</price>
+    <category>Programming</category>
+  </book>
+  <book id="2">
+    <title>QuickXml</title>
+    <price>100yen</price>
+    <category>Programming</category>
+  </book>
+  <book id="3">
+    <title>B-class gourmet selection</title>
+    <price>10000yen</price>
+    <category>Food</category>
+  </book>
+</test>
