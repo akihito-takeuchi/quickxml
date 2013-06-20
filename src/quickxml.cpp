@@ -123,6 +123,16 @@ QuickXml& QuickXml::operator[](int index)
     return _p->parent->childrenByTagName[_p->tagName][index];
 }
 
+QuickXml& QuickXml::operator()(const QString& tagName) const
+{
+    return const_cast<QuickXml*>(this)->operator()(tagName);
+}
+
+QuickXml& QuickXml::operator[](int index) const
+{
+    return const_cast<QuickXml*>(this)->operator[](index);
+}
+
 QString QuickXml::tagName() const
 {
     return _p->tagName;

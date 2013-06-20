@@ -44,6 +44,8 @@ public:
     virtual ~QuickXml();
     virtual QuickXml& operator()(const QString& tagName);
     virtual QuickXml& operator[](int index);
+    virtual QuickXml& operator()(const QString& tagName) const;
+    virtual QuickXml& operator[](int index) const;
     virtual QString tagName() const;
     virtual QString text() const;
     virtual QString attr(const QString& attrName) const;
